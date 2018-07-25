@@ -2,6 +2,7 @@
 let driver = ["AAA", "BBB" , "CCC" , "DDD"]
 
 function lowerCaseDrivers(x){
-
+x.toLowerCase();
+return x;
 }
   driver.map(lowerCaseDrivers())
