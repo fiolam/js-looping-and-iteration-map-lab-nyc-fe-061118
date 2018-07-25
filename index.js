@@ -12,5 +12,5 @@ return drivers.map(lowerCaseDriver)
  //}
  
  function nameToAttributes(drivers){
-   return.drivers.map(firstname +lastname)
+   return drivers.map(firstname + lastname)
  }
