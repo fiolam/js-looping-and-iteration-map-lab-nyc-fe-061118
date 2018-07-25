@@ -1,8 +1,10 @@
 // Code your solution in this file.
-function lowerCaseDriver(driver}
+function lowerCaseDriver(name){
+  return name.toLowerCase()
 }
+
 function lowerCaseDrivers(drivers){
-drivers.map(lowerCaseDrivers)
-return drivers ;
+return drivers.map(lowerCaseDriver)
+
 }
  
