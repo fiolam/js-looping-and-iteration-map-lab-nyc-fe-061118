@@ -7,6 +7,10 @@ function lowerCaseDrivers(drivers){
 return drivers.map(lowerCaseDriver)
 }
  
- function attributesToPhrase(name){
-   return name["<NAME OF DRIVER> is from <HOMETOWN>"]
+// function attributesToPhrase(name){
+   //return name["<NAME OF DRIVER> is from <HOMETOWN>"]
+ //}
+ 
+ function nameToAttributes(drivers){
+   return.drivers.map(firstname +lastname)
  }
