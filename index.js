@@ -2,7 +2,9 @@
 let driver = ["AAA", "BBB" , "CCC" , "DDD"]
 
 function lowerCaseDrivers(drivers){
-  let copyDrivers = {...drivers}
+  let copyDrivers = {...drivers} 
+return firstName + lastName
+
  console.drivers=
 return x;
 }
