@@ -2,8 +2,8 @@
 let driver = ["AAA", "BBB" , "CCC" , "DDD"]
 
 function lowerCaseDrivers(drivers){
-  let copyDrivers={...drivers}
-x.toLowerCase();
+  let copyDrivers = {...drivers}
+ console.drivers=
 return x;
 }
   driver.map(lowerCaseDrivers())
