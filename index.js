@@ -8,3 +8,7 @@ let driver = ["AAA", "BBB" , "CCC" , "DDD"]
  // let nameToAttributes = function (drivers){
   //return name + lastName
  // }
+for (drivers of ages){
+let newAge  =age + 1
+newAges.push(newAge)
+debugger ;  U FREEEZE THE CODE 
