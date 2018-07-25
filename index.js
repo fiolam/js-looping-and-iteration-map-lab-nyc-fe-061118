@@ -7,4 +7,5 @@ function lowerCaseDrivers(drivers){
 return drivers.map(lowerCaseDriver)
 }
  
- function of atr
+ function of attributesToPhrase(name){
+   return name[""]
