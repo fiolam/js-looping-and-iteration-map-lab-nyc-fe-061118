@@ -1,7 +1,7 @@
 // Code your solution in this file.
 let driver = ["AAA", "BBB" , "CCC" , "DDD"]
 
-function lowerCaseDrivers(){
+function lowerCaseDrivers(x){
 
 }
-  driver.map()
+  driver.map(lowerCaseDrivers())
