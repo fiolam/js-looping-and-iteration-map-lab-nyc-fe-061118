@@ -11,6 +11,8 @@ return drivers.map(lowerCaseDriver)
    //return name["<NAME OF DRIVER> is from <HOMETOWN>"]
  //}
  
- function nameToAttributes(drivers){
-   return drivers.map(firstname + lastname)
- }
+// function nameToAttributes(drivers){
+//   return drivers.map(firstname + lastname)
+ //}
+ function CreateNewobject(namestring){
+return namestring.map
