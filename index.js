@@ -14,6 +14,9 @@ return drivers.map(lowerCaseDriver)
 // function nameToAttributes(drivers){
 //   return drivers.map(firstname + lastname)
  //}
- function CreateNewobject(namestring){
-return namestring.map
+ function CreateNewObject(namestring){
+return{firstName, lastname};
+}
+function nameToAttributes(drivers){
+  return drivers.map(CreateNewObject)
 }
