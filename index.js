@@ -5,6 +5,6 @@ function lowerCaseDrivers(drivers){
   let copyDrivers = {...drivers}
   return drivers ;
 }
-  let nameToAttributes = function (drivers){
-  return name + lastName
-  }
+ // let nameToAttributes = function (drivers){
+  //return name + lastName
+ // }
