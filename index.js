@@ -14,3 +14,7 @@ let lastName = nameArray [1]
 return {firstName: firstName , lastName: lastName};
 }
 
+function nameToAttributes (drivers) {
+return drivers.map(createNewObject)
+}
+
