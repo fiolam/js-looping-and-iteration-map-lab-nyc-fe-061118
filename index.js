@@ -15,7 +15,6 @@ return {firstname: firstName , lastname: lastName};
 }
 
 
-
 function nameToAttributes (drivers) {
 return drivers.map(createNameObject)
 }
