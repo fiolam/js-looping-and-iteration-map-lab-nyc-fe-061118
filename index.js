@@ -15,3 +15,7 @@ return {firstname: firstName, lastname:lastName};
 }
 
 
+names.map(createNewObject)
+function nameToAttributes(names){
+return names.map(createNameObject}
+}
