@@ -11,5 +11,7 @@ function CreateNewObject(name){
 let nameArray = name.split (" ")
 let firstName = nameArray [0]
 let lastName = nameArray [1]
-return {firstname: firstName, lastname:lastName}
+return {firstname: firstName, lastname:lastName};
 }
+
+
