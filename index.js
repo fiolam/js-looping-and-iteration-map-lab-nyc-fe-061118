@@ -18,3 +18,11 @@ function nameToAttributes (drivers) {
 return drivers.map(createNewObject)
 }
 
+function  createNameHometownPhrases(newObjects){
+  let nameOnly =  newObject[ 'name']
+  let hometownOnly = newObject ['hometown']
+  return nameOnly + 'is from' + hometownOnly
+}
+function attributesToPhrase (driver){
+  return driver.map(createNewHometownPhrases)
+}
