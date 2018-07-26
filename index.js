@@ -6,17 +6,10 @@ function lowerCaseDriver(name){
 function lowerCaseDrivers(drivers){
 return drivers.map(lowerCaseDriver)
 }
- 
-// function attributesToPhrase(name){
-   //return name["<NAME OF DRIVER> is from <HOMETOWN>"]
- //}
- 
-// function nameToAttributes(drivers){
-//   return drivers.map(firstname + lastname)
- //}
- function CreateNewObject(namestring){
-return{firstName, lastname};
-}
-function nameToAttributes(drivers){
-  return drivers.map(CreateNewObject)
-}
+
+function CreateNewObject(name)
+let nameArray= name.split(“ empty space don’t write it“)
+let firstName=nameArray[0[
+let lastname=nameArray[1]
+return {firstname: firstName, lastname:lastName}
+
